@@ -37,7 +37,7 @@ public class Steps {
     @When("hits submit")
     public void hits_submit() {
         // Write code here that turns the phrase above into concrete actions
-        System.out.println("The user hits submit\"");
+        System.out.println("The user hits submit");
         driver.findElement(By.name("btnLogin")).click();
 
     }
