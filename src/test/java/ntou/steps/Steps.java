@@ -17,8 +17,8 @@ public class Steps {
 
     public static WebDriver driver;
 
-    @Given("the user is on login page")
-    public void the_user_is_on_login_page() {
+    @Given("the user is on the login page")
+    public void the_user_is_on_the_login_page() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("The user is on the login page.");
         // driver= new FirefoxDriver();
@@ -30,10 +30,10 @@ public class Steps {
         driver.get("http://demo.guru99.com/v4");
     }
 
-    @When("the user enters valid id and password")
-    public void the_user_enters_valid_id_and_password() {
+    @When("the user enters a valid id and password")
+    public void the_user_enters_a_valid_id_and_password() {
         // Write code here that turns the phrase above into concrete actions
-        System.out.println("The user enters a valid id and password");
+        System.out.println("The user enters a valid id and password.");
         driver.findElement(By.name("uid")).sendKeys("mngr507131");
         driver.findElement(By.name("password")).sendKeys("urAvery");
     }
