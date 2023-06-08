@@ -21,7 +21,7 @@ public class Steps {
     public void the_user_is_on_the_login_page() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("The user is on the login page.");
-        // driver= new FirefoxDriver();
+        //driver= new FirefoxDriver();
 
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("--headless");
@@ -41,7 +41,7 @@ public class Steps {
     @When("hits submit")
     public void hits_submit() {
         // Write code here that turns the phrase above into concrete actions
-        System.out.println("The user hits the submit button.");
+        System.out.println("The user hits the submit button!");
         driver.findElement(By.name("btnLogin")).click();
     }
 
