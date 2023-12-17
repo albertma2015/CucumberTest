@@ -34,8 +34,8 @@ public class Steps {
     public void the_user_enters_a_valid_id_and_password() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("The user enters a valid id and password.");
-        driver.findElement(By.name("uid")).sendKeys("mngr507131");
-        driver.findElement(By.name("password")).sendKeys("urAvery");
+        driver.findElement(By.name("uid")).sendKeys("mngr543886");
+        driver.findElement(By.name("password")).sendKeys("AqAjyma");
     }
 
     @When("hits submit")
